@@ -1,0 +1,155 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+*{
+   margin: 0;
+   padding: 0;
+}
+
+.container{
+    font-size: 25px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(168, 168, 182);
+}
+.Logo{
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    margin-left: 166px;
+}
+.list{
+    display: flex;
+    height: 70px;
+    align-items: center;
+    justify-content: center;
+    padding-left: 30px;
+    margin-right: 363px;
+
+    
+}
+.list li{
+    list-style: none;
+    margin: 0 12px;
+    /* padding-left: 20px; */
+
+}
+
+.btn{
+    /* height: 10px;
+    width: 20px; */
+    background-color: rgb(168, 168, 182);
+    border: 3px solid purple;
+    font-size: 22px;
+     padding: 9px 17px;
+    border-radius: 80px; 
+    cursor: pointer;
+    color: white;
+    /* margin: 0 40px; */
+    margin-left: 44px;
+}
+.first{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+    
+     
+}
+
+.left{
+/* height: 50%; */
+width: 50%;
+padding-left: 74px;
+ padding-top: 40px;
+}
+.left h1{
+    font-size: 34px;
+    font-weight: bolder;
+    margin-bottom: 29px;
+    padding-top: 27px;
+}
+
+.right{
+/* height: auto; */
+width: 50%;
+margin-right: 6px;
+
+}
+
+.second{
+    /* background-color: purple; */
+     display: flex; 
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* justify-content: space-between; */
+}
+.boxes{
+    width: 100%;
+    display: flex;
+    /* justify-content: space-between; */
+    margin-top: 1px;
+    margin-left: 20px;
+
+}
+
+.box1{
+    height: 300px;
+    width: 500px;
+    background-color: rgb(215, 200, 200);
+    margin-left: 40px;
+   
+}
+
+.box2{
+    height: 300px;
+    width: 500px;
+    background-color: rgb(215, 210, 248);
+    margin-left: 40px;
+
+}
+
+.box3{
+    height: 300px;
+    width: 500px;
+    background-color: rgb(213, 214, 206);
+    margin-left: 50px;
+
+}
+.box4{
+    height: 300px;
+    width: 500px;
+    background-color: rgb(218, 223, 233);
+    margin-left: 50px;
+    
+
+}
+
+.btn2{
+    height: 27px;
+    width: 90px;
+    border: 1px solid purple;
+    border-radius: 20px;
+    margin-top: 40px;
+    margin-left: 200px;
+    font-weight: bolder;
+    font-size: 14px;
+   
+
+}
+
+.footer {
+    max-width:100%;
+    height: 270px;
+    text-align: center;
+    /* padding: 3px; */
+    background-color: DarkSalmon;
+    color: white;
+  }
